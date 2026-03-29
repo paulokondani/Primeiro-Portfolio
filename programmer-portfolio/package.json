@@ -1,0 +1,24 @@
+{
+  "name": "programmer-portfolio",
+  "version": "1.0.0",
+  "description": "A minimalist portfolio for showcasing programming projects.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "portfolio",
+    "web development",
+    "database"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
